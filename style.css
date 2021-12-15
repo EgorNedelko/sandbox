@@ -1,0 +1,9 @@
+* {
+   box-sizing: border-box;
+}
+
+body {
+   min-height: 100hv;
+   min-width: 100wv;
+   margin: auto;
+}
