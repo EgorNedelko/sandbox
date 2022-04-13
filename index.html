@@ -8,11 +8,26 @@
    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <div class="input-container">
-      <div class="name" id="nameElem">name</div>
-      <form class="name-form" autocomplete="off" action="#">
-         <input class="name-input" autocomplete="disabled" id="entity-name" title="Only letters and numbers are allowed" type="hidden" value="input">
-      </form>
+   <div class="dropdown_container">
+      <h2>&lt;select&gt; + &lt;option&gt;</h2>
+      <label for="dropdown">select</label>
+      <select id="dropdown">
+         <option>option-1</option>
+         <option>option-2</option>
+      </select>
+   </div>
+   <div class="divider"></div>
+   <div class="dropdown_container">
+      <h2>&lt;div&gt; + &lt;a&gt;</h2>
+      <div class="dropdown">
+         <span class="selected-link"></span>
+         <button class="drop-btn">button</button>
+         <div class="dropdown-content">
+            <a href="#" class="link">a-1</a>
+            <a href="#" class="link">a-2</a>
+            <a href="#" class="link">a-3</a>
+         </div>
+      </div>
    </div>
    <script src="script.js"></script>
 </body>

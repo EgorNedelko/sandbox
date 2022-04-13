@@ -1,0 +1,6 @@
+<div class="input-container">
+      <div class="name" id="nameElem">name</div>
+      <form class="name-form" autocomplete="off" action="#">
+         <input class="name-input" autocomplete="disabled" id="entity-name" title="Only letters and numbers are allowed" type="hidden" value="input">
+      </form>
+   </div>
